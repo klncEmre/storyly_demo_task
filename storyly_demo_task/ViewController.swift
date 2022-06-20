@@ -18,8 +18,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
 //      APP UI
-        view.bounds = view.frame.insetBy(dx: 10.0, dy: -30.0);
-        view.backgroundColor = UIColor.lightGray
+        view.bounds = view.frame.insetBy(dx: 10.0, dy: -35.0);
+        
 //      Add stroyly here
         self.view.addSubview(containerView)
         containerView.backgroundColor = UIColor.white
@@ -28,6 +28,9 @@ class ViewController: UIViewController {
 //        containerView.centerYAnchor.constraint(equalTo: self.view.centerYAnchor, constant:20).isActive = true
         self.containerView.delegate = self //Set up delegate
         self.containerView.storylyInit = StorylyInit(storylyId: STORYLY_INSTANCE_TOKEN)
+        containerView.storyGroupTextColor = UIColor.systemBlue
+        containerView.storyGroupIconBackgroundColor = UIColor.yellow
+        containerView.rootViewController = self
         
     }
 }
@@ -49,7 +52,6 @@ extension ViewController: StorylyDelegate {
     }
    
     
-    
-    
 }
+
 
