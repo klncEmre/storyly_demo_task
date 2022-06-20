@@ -17,6 +17,7 @@
 		BC528CDE2860478D00898165 /* storyly_demo_taskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC528CDD2860478D00898165 /* storyly_demo_taskUITests.swift */; };
 		BC528CE02860478D00898165 /* storyly_demo_taskUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC528CDF2860478D00898165 /* storyly_demo_taskUITestsLaunchTests.swift */; };
 		BC528CEE28604DF200898165 /* Storyly in Frameworks */ = {isa = PBXBuildFile; productRef = BC528CED28604DF200898165 /* Storyly */; };
+		BC528CF028608EA100898165 /* emresview.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC528CEF28608EA100898165 /* emresview.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		BC528CD92860478D00898165 /* storyly_demo_taskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = storyly_demo_taskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC528CDD2860478D00898165 /* storyly_demo_taskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = storyly_demo_taskUITests.swift; sourceTree = "<group>"; };
 		BC528CDF2860478D00898165 /* storyly_demo_taskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = storyly_demo_taskUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BC528CEF28608EA100898165 /* emresview.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = emresview.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 				BC528CC52860478D00898165 /* Assets.xcassets */,
 				BC528CC72860478D00898165 /* LaunchScreen.storyboard */,
 				BC528CCA2860478D00898165 /* Info.plist */,
+				BC528CEF28608EA100898165 /* emresview.xib */,
 			);
 			path = storyly_demo_task;
 			sourceTree = "<group>";
@@ -240,6 +243,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC528CC92860478D00898165 /* LaunchScreen.storyboard in Resources */,
+				BC528CF028608EA100898165 /* emresview.xib in Resources */,
 				BC528CC62860478D00898165 /* Assets.xcassets in Resources */,
 				BC528CC42860478C00898165 /* Main.storyboard in Resources */,
 			);
